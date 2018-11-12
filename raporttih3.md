@@ -68,7 +68,7 @@ Alla kopioituna tuloksia git log komennolla:
 	Write report
 
 **git log** näyttää siis lokin gitistä,päivämäärä ja kellonaika (UTC), kuka muokannut ja kuvaus mitä tehnyt.
-Lokitapahtumat tulevat jokaisen **git commit* komennon jälkeen. 
+Lokitapahtumat tulevat jokaisen **git commit** komennon jälkeen. 
 Commitin jälkeinen tiiviste sisältää tiedot mitä muokattu, tiivistettä voidaan käyttää diff komennon kanssa kuten seuraavassa kohdassa tein.
 
 **git diff** komennolla voidaan verrata kahden eri lokitapahtuman suhdetta toisiinsa. Tulos näyttää mitä eroa näiden kahden tiivisteen välillä on tapahtunut.
