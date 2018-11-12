@@ -17,5 +17,4 @@ Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitse
 **f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman.
 Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot.**
 
-I'll be using my own desktop PC and my Server from DigitalOcean for completing the tasks, the hardware used can be found from my
-[blog](https://miikazitting.wordpress.com/)
+Käytän tehtävien suorittamiseen pöytäkonettani, sekä virtuaalipalvelinta DigitalOceanista. Koneiden rauta löytyy listattuna [blogistani](https://miikazitting.wordpress.com/)
