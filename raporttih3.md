@@ -49,23 +49,23 @@ Sain kloonattua gittini salt tiedoston palvelimelleni githubista ja kirjoitin t�
 
 Alla kopioituna tuloksia git log komennolle: 
 
-commit c8cc7e27b3ca92bf9df47dfe9e4e476166d0790d (HEAD -> master, origin/master, origin/HEAD)
-Author: Miika Zitting <a1704460@myy.haaga-helia.fi>
-Date:   Mon Nov 12 15:33:23 2018 +0000
+	commit c8cc7e27b3ca92bf9df47dfe9e4e476166d0790d (HEAD -> master, origin/master, origin/HEAD)
+	Author: Miika Zitting <a1704460@myy.haaga-helia.fi>
+	Date:   Mon Nov 12 15:33:23 2018 +0000
 
-    Add text
+	Add text
 
-commit 97ed7cc3670068d8ba143468bf83da46319daf38
-Author: Miika Zitting <a1704460@myy.haaga-helia.fi>
-Date:   Mon Nov 12 15:29:59 2018 +0000
+	commit 97ed7cc3670068d8ba143468bf83da46319daf38
+	Author: Miika Zitting <a1704460@myy.haaga-helia.fi>
+	Date:   Mon Nov 12 15:29:59 2018 +0000
 
-    Write report
+	Write report
 
-commit 859f749a9e3133485b09fc5e66ceb5570c3ef93d
-Author: Miika Zitting <a1704460@myy.haaga-helia.fi>
-Date:   Mon Nov 12 15:26:18 2018 +0000
+	commit 859f749a9e3133485b09fc5e66ceb5570c3ef93d
+	Author: Miika Zitting <a1704460@myy.haaga-helia.fi>
+	Date:   Mon Nov 12 15:26:18 2018 +0000
 
-    Write report
+	Write report
 
 **git log** näyttää siis lokin gitistä,päivämäärä ja kellonaika (UTC), kuka muokannut ja kuvaus mitä tehnyt. 
 Commitin jälkeinen tiiviste sisältää tiedot mitä muokattu, tiivistettä voidaan käyttää diff komennon kanssa kuten seuraavassa kohdassa tein.
