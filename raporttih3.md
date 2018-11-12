@@ -120,3 +120,7 @@ sekä toisena numerona pilkun jälkeen rivinumero johon tarkastelu päätetään
 Tuloksissa ensimmäisenä on tiiviste, sitten sen henkilön käyttäjänimi joka tämän tietyn rivin on luonut. Sitten päivämäärä ja kellonaika UTC ajassa.
 Viimeisenä on kyseisen rivin rivinumero. Sulkujen jälkeen on se teksti jonka käyttäjän on dokumenttiin lisännyt. 
 Komento näyttää siis kuka on esimerkiksi minkäkin rivin koodia tai tekstiä dokumenttiin luonut.
+
+## e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
+
+
