@@ -47,7 +47,7 @@ Sain kloonattua gittini salt tiedoston palvelimelleni githubista ja kirjoitin t�
 
 ## d) Näytä omalla salt-varastollasi esimerkit komennoista 'git log', 'git diff' ja 'git blame'. Selitä tulokset.
 
-Alla kopioituna tuloksia git log komennolle: 
+Alla kopioituna tuloksia git log komennolla: 
 
 	commit c8cc7e27b3ca92bf9df47dfe9e4e476166d0790d (HEAD -> master, origin/master, origin/HEAD)
 	Author: Miika Zitting <a1704460@myy.haaga-helia.fi>
@@ -67,7 +67,12 @@ Alla kopioituna tuloksia git log komennolle:
 
 	Write report
 
-**git log** näyttää siis lokin gitistä,päivämäärä ja kellonaika (UTC), kuka muokannut ja kuvaus mitä tehnyt. 
+**git log** näyttää siis lokin gitistä,päivämäärä ja kellonaika (UTC), kuka muokannut ja kuvaus mitä tehnyt.
+Lokitapahtumat tulevat jokaisen **git commit* komennon jälkeen. 
 Commitin jälkeinen tiiviste sisältää tiedot mitä muokattu, tiivistettä voidaan käyttää diff komennon kanssa kuten seuraavassa kohdassa tein.
 
-**git diff**
+**git diff** komennolla voidaan verrata kahden eri lokitapahtuman suhdetta toisiinsa. Tulos näyttää mitä eroa näiden kahden tiivisteen välillä on tapahtunut.
+Tiivisteet voivat olla pitkältä aikaväliltä toisistaan, voidaan katsoa vaikka mitä eroa tunti sitten aiheutuneella lokitapahtumalla on viimeisimmän commitin kanssa. 
+
+	git diff 859f749a9e3133485b09fc5e66ceb5570c3ef93d c8cc7e27b3ca92bf9df47dfe9e4e476166d0790d
+
