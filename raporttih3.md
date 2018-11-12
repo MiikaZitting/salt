@@ -124,3 +124,14 @@ Komento näyttää siis kuka on esimerkiksi minkäkin rivin koodia tai tekstiä 
 ## e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
 
+Githubissani oli jo valmiiksi salt kansiossa "hello" moduuli, joka on saltin Hei Maailma. Päätin kokeilla tyhmää muutosta tähän ja poistaa kansion kokonaan.
+
+	sudo rm -r hello
+
+Kansio poistui ja seuraavaksi annoin reset komennon.
+
+	sudo reset --hard 
+
+Ja tulos näytti komennon jälkeen vastaavalta.
+
+
