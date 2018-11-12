@@ -10,7 +10,7 @@ Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitse
 
 **c) Laita /srv/salt/ gittiin. Tee uusi moduli. Kloonaa varastosi toiselle koneelle (tai poista /srv/salt ja palauta se kloonaamalla) ja jatka sillä.**
 
-**d) Näytä omalla salt-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.**
+**d) Näytä omalla salt-varastollasi esimerkit komennoista 'git log', 'git diff' ja 'git blame'. Selitä tulokset.**
 
 **e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.**
 
@@ -18,6 +18,14 @@ Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitse
 Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot.**
 
 Käytän tehtävien suorittamiseen pöytäkonettani, sekä virtuaalipalvelinta DigitalOceanista. Koneiden rauta löytyy listattuna [blogistani](https://miikazitting.wordpress.com/2018/10/30/palvelinten-hallinta-viikko-1/)
+
+Pöytäkoneessani pyörii linux livetikulta, johon on annettu ainoastaan seuraavat komennot:
+
+	setxkbmapfi
+	sudo apt-get update
+	sudo apt-get -y install shutter
+
+Virtuaalipalvelinta käytän ssh yhteydellä pöytäkoneeltani.
 
 ## c) Laita /srv/salt/ gittiin. Tee uusi moduli. Kloonaa varastosi toiselle koneelle (tai poista /srv/salt ja palauta se kloonaamalla) ja jatka sillä.
 
@@ -31,10 +39,11 @@ Sitten aloitin saltin lataamisen nollista
 	sudo apt-get -y install salt-master
 	cd /srv/
 	sudo git clone https://github.com/MiikaZitting/salt.git
+	git config --global credential.helper "cache --timeout=3600"
 
 Sain kloonattua gittini salt tiedoston palvelimelleni githubista ja kirjoitin tämänkin raportin Markdownilla gittiin.
 
 
 
-## d) Näytä omalla salt-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
+## d) Näytä omalla salt-varastollasi esimerkit komennoista 'git log', 'git diff' ja 'git blame'. Selitä tulokset.
 
