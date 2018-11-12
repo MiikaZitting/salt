@@ -39,11 +39,11 @@ Sitten aloitin saltin lataamisen nollista
 	sudo apt-get -y install salt-master
 	cd /srv/
 	sudo git clone https://github.com/MiikaZitting/salt.git
+	git config --global user.name "Miika Zitting"
+	git config --global user.email "a1704460@myy.haaga-helia.fi"
 	git config --global credential.helper "cache --timeout=3600"
-
+	
 Sain kloonattua gittini salt tiedoston palvelimelleni githubista ja kirjoitin tämänkin raportin Markdownilla gittiin.
-
-
 
 ## d) Näytä omalla salt-varastollasi esimerkit komennoista 'git log', 'git diff' ja 'git blame'. Selitä tulokset.
 
