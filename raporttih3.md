@@ -21,7 +21,20 @@ Käytän tehtävien suorittamiseen pöytäkonettani, sekä virtuaalipalvelinta D
 
 ## c) Laita /srv/salt/ gittiin. Tee uusi moduli. Kloonaa varastosi toiselle koneelle (tai poista /srv/salt ja palauta se kloonaamalla) ja jatka sillä.
 
+Kerkesimme jo torstain tunneilla laittamaan /srv/salt gittiin joten kloonasin sen virtuaalipalvelimelleni.
 Palvelimella oli jo salt-master asennettuna, joten poistin saltin ensimmäisenä
 	
-	sudo apt-get purge salt
+	sudo apt-get purge salt-master 
+
+Sitten aloitin saltin lataamisen nollista
+
+	sudo apt-get -y install salt-master
+	cd /srv/
+	sudo git clone https://github.com/MiikaZitting/salt.git
+
+Sain kloonattua gittini salt tiedoston palvelimelleni githubista ja kirjoitin tämänkin raportin Markdownilla gittiin.
+
+
+
+## d) Näytä omalla salt-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
 
