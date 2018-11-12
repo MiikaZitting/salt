@@ -135,3 +135,5 @@ Kansio poistui ja seuraavaksi annoin reset komennon.
 Ja tulos näytti komennon jälkeen vastaavalta.
 
 
+Eli **git reset** palauttaa git hakemiston edelliseen tilaan joka on commitattu. Tämä tuli itselle hyvinkin hyödyllisenä komentona jatkoa ajatellen.
+
