@@ -137,3 +137,5 @@ Ja tulos näytti komennon jälkeen vastaavalta.
 
 Eli **git reset** palauttaa git hakemiston edelliseen tilaan joka on commitattu. Tämä tuli itselle hyvinkin hyödyllisenä komentona jatkoa ajatellen.
 
+## f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot.
+
