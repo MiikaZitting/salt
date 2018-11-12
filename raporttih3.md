@@ -17,7 +17,6 @@ Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitse
 **f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman.
 Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot.**
 
-Hei maailma!
 
 
 
