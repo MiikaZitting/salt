@@ -114,7 +114,7 @@ Käytin siis seuraavaa komentoa:
 
 	git blame -L 25,50 raporttih3.md
 
-ensiksi **git blame** seuraavaksi -L jonka jälkeen tulee merkitä miltä riviltä lähtien dokumenttia halutaan tarkastella,
+Ensiksi **git blame** seuraavaksi -L jonka jälkeen tulee merkitä miltä riviltä lähtien dokumenttia halutaan tarkastella,
 sekä toisena numerona pilkun jälkeen rivinumero johon tarkastelu päätetään. 
 
 Tuloksissa ensimmäisenä on tiiviste, sitten sen henkilön käyttäjänimi joka tämän tietyn rivin on luonut. Sitten päivämäärä ja kellonaika UTC ajassa.
