@@ -132,9 +132,12 @@ Githubissani oli jo valmiiksi salt kansiossa "hello" moduuli, joka on saltin Hei
 
 Kansio poistui ja seuraavaksi annoin reset komennon.
 
-	sudo reset --hard 
+	sudo git reset --hard 
 
 Ja tulos näytti komennon jälkeen vastaavalta.
+
+![git reset](https://github.com/MiikaZitting/salt/blob/master/images/Selection_003.png "git reset tulokset")
+
 
 
 Eli **git reset** palauttaa git hakemiston edelliseen tilaan joka on commitattu. Tämä tuli itselle hyvinkin hyödyllisenä komentona jatkoa ajatellen.
@@ -165,6 +168,8 @@ Seuraavaksi liitin pöytäkoneeni salt-orjaksi virtuaalipavelimelleni ja ajoni s
 	
 	sudo salt '*' state.highstate
 
-	** KUVA TÄHÄN **
+![network moduuli](https://github.com/MiikaZitting/salt/blob/master/images/5.png "network moduulin tulokset")
+
+
 
 Uusi moduuli toimi oikein ja asensi halutut ohjelmat verkkojen tarkastelua varten. 
