@@ -143,6 +143,6 @@ Päätin tehdä verkon testaamista varten olevan moduulin.
 Moduuli sisältäisi seuraavat ohjelmat:
 	
 	* speedtest-cli - Yhteyden nopeuksien testaamiseen
-	* hltop - Järjestelmän prosessien määrän, sekä käyttöasteen
+	* htop - Järjestelmän prosessien määrän, sekä käyttöasteen
 	* wireshark - Verkon valvontaan. HUOM Tämän ohjelman väärinkäytöllä voit syyllistyä vakavaan rikokseen.
 
