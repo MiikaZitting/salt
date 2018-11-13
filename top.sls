@@ -1,2 +1,4 @@
-base '*':
-  - hello
+base:
+  '*':
+    - hello
+    - network
