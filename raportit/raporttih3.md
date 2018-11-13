@@ -146,3 +146,14 @@ Moduuli sisältäisi seuraavat ohjelmat:
 	* htop - Järjestelmän prosessien määrän, sekä käyttöasteen
 	* wireshark - Verkon valvontaan. HUOM Tämän ohjelman väärinkäytöllä voit syyllistyä vakavaan rikokseen.
 
+Tein srv/salt kansiooni uuden kansion /network johon tein init.sls tekstitiedoston. Tiedoston sisältö:
+
+	htop:
+	  pkg.installed
+
+	wireshark:
+	  pkg.installed
+
+	speedtest-cli:
+	  pkg.installed
+
