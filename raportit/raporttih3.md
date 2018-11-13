@@ -157,3 +157,12 @@ Tein srv/salt kansiooni uuden kansion /network johon tein init.sls tekstitiedost
 	speedtest-cli:
 	  pkg.installed
 
+Lisäsin myös top.sls tiedostoon **-network** kohdan jotta highstatea ajaessa tulisi uusi moduuli myös ajettua. 
+
+Seuraavaksi liitin pöytäkoneeni salt-orjaksi virtuaalipavelimelleni ja ajoni seuraavan komennon joka antoi seuraavan tuloksen:
+	
+	sudo salt '*' state.highstate
+
+	** KUVA TÄHÄN **
+
+Uusi moduuli toimi oikein ja asensi halutut ohjelmat verkkojen tarkastelua varten. 
