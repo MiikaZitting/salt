@@ -139,22 +139,10 @@ Eli **git reset** palauttaa git hakemiston edelliseen tilaan joka on commitattu.
 
 ## f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot.
 
-Päätin tehtä moduulin joka tuo jokaiselle orja koneelle edellisellä linux kurssilla tekemäni bash komennon.
-Komento suorittaa seuraavat komennot ja näyttää toimiessaan oikein vastaavalta :
-
-        #!/bin/bash
-
-        echo Hello,
-        whoami
-
-        echo Your IP is:
-        hostname -i
-
-        echo Your temps are:
-        sensors -A
-
-**Kuva tähän** 
-
-
-
+Päätin tehdä verkon testaamista varten olevan moduulin.
+Moduuli sisältäisi seuraavat ohjelmat:
+	
+	* speedtest-cli - Yhteyden nopeuksien testaamiseen
+	** hltop - Järjestelmän prosessien määrän, sekä käyttöasteen
+	*** wireshark - Verkon valvontaan. HUOM Tämän ohjelman väärinkäytöllä voit syyllistyä vakavaan rikokseen.
 
