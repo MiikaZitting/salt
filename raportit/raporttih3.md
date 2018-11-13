@@ -76,6 +76,8 @@ Tiivisteet voivat olla pitkältä aikaväliltä toisistaan, voidaan katsoa vaikk
 
 	git diff 859f749a9e3133485b09fc5e66ceb5570c3ef93d c8cc7e27b3ca92bf9df47dfe9e4e476166d0790d
 
+![Git Diff](https://github.com/MiikaZitting/salt/blob/master/images/Selection_002.png "git diff tulokset")
+
 Punaisella merkityt rivit ovat poistettu, ja vihreällä ovat lisätty näiden kahden tiivisteen välillä. Se mikä pysyy harmaana
 on muuttumatonta.
 
