@@ -1,3 +1,2 @@
 apache2:
-  pkg.installed:
-
+  pkg.installed
