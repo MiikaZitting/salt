@@ -1,3 +1,2 @@
 apahce2install:
-  pkg:
-    -apache2
+  pkg.installed:
