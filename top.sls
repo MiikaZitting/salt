@@ -1,6 +1,10 @@
 base:
   '*':
-    - hello
-    - apache2
-    - php
-    - ufw
+  - hello
+
+  '*linux':
+   - ufw
+   - ssh
+
+  '*WIN':
+   - windows
