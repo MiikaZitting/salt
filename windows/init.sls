@@ -1,6 +1,6 @@
 windows:
   pkg.installed:
-   - pkgs:
+    - pkgs:
       - chocolatey
 
 chocolatey:
